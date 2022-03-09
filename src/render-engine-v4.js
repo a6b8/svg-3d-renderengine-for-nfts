@@ -571,6 +571,20 @@ function renderScreen( { matProj, mesh } ) {
 }
 
 
+async function fetchData( config ) {
+    let data = null
+
+    if( config['mesh']['load_from_file'] ) {
+        const raw = await fetch( config['mesh']['file'] )
+        data = raw.text()
+    } else {
+        data = meshCube()
+    }
+
+    return data
+}
+
+
 // https://www.youtube.com/watch?v=XgMWc6LumG4 Part 2
 // https://www.youtube.com/watch?v=HXSuNxpCzdM Part 3
 // Code: https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_olcEngine3D_Part3.cpp
@@ -640,8 +654,7 @@ var svg = document.getElementById( '2d' )
 var ctx = canvas.getContext( '2d' )
 
 
-fetch( config['mesh']['file'] )
-.then( response => response.text() )
+fetchData( config )
 .then( file => {
     let a = null
     config['mesh']['load_from_file'] ? a = meshLoader( file ) : a = meshCube()

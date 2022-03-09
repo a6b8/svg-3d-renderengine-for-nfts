@@ -53,6 +53,8 @@ try {
             .length
     } )
 
+    console.log( data_str )
+
     await browser.close()
 
     if( test > 0 ) {
