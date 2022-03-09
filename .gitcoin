@@ -1,0 +1,29 @@
+A 3D Renderengine which is perfectly suited for on-chain / composable SVGs. 
+
+Do you have a proof of concept?
+Yes, check out my github page. It should be possible an there a more optimization opportunities. >> DEMO (https://a6b8.github.io/svg-3d-renderengine-for-nfts/)
+
+Why not use an existing Renderengine?
+First of all, it´s fun do it by my own! Second it make a lot of sense to think about every line of code for the new purpose of on-chain svg.
+
+Why do you start with javascript?
+Well, for development i need a template for comparison anyway. Plus a web interface is the perfect fit for this type of project.
+
+But solidity have no floating numbers.
+Yep! Challenge accepted! This source should be a good starting point.
+
+What are the reduction strategies besides traditional 3D Renderengines have?
+CSG Operations for recursivly merging polygons together.
+Reduce faces by grouping into grey areas.
+...
+
+How did you start?
+This project is heavily inspired by LoneCoder´s Code-It-Yourself! 3D Graphics Engine Youtube Series. Which inspired me to build my own SVG version.
+
+Do you have experience in 3D?
+More then 10 years. I made my first render in 2008. i also worked as a rapid prototyping lecturer at my university in 2015. On thingiverse you can find some generative 3d stuff from this time (https://www.thingiverse.com/andreas_banholzer/designs)
+
+Do you have experience in Solidity?
+1,5 years but 10 years of experience in programming (java, ruby, python, node) in general.
+You can find me also on speedrunEthereum.com:
+https://speedrunethereum.com/builders/0x669e2a6404593FC4eeBAba559ac3c948829b772f
