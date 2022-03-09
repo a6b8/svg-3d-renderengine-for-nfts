@@ -1,0 +1,26 @@
+{
+  "name": "0-svg-3d-render",
+  "version": "1.0.0",
+  "description": "<a href=\"#table-of-contents\"> <img src=\"https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/svg-3d-renderengine-for-on-chain-nfts.svg\" height=\"45px\" alt=\"SVG 3D Renderengine for on-chain NFTs\" name=\"# SVG 3D Renderengine for on-chain NFTs\"> </a>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a6b8/svg-3d-renderengine-for-nfts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a6b8/svg-3d-renderengine-for-nfts/issues"
+  },
+  "homepage": "https://github.com/a6b8/svg-3d-renderengine-for-nfts#readme",
+  "devDependencies": {
+    "puppeteer": "^13.5.1"
+  }
+}
