@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/a6b8/svg-3d-renderengine-for-nfts.git"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/a6b8/svg-3d-renderengine-for-nfts#readme",
   "devDependencies": {
     "puppeteer": "^13.5.1"
+  },
+  "dependencies": {
+    "minify": "^9.1.0"
   }
 }
